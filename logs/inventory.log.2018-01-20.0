@@ -1,0 +1,6 @@
+2018-01-20/15:35:17.957||||^_^|[Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 984
+                - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37052337: startup date [Fri Jan 19 11:59:49 CST 2018]; root of context hierarchy
+2018-01-20/15:35:18.830||||^_^|[Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter 449
+                - Unregistering JMX-exposed beans on shutdown
+2018-01-20/15:35:18.858||||^_^|[Thread-6] INFO  com.example.es.es_demo.EsConfig 39
+                - Closing elasticSearch client

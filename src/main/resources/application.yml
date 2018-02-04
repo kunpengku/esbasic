@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: school-account
+  datasource:
+    url: jdbc:mysql://localhost:3306/school_account?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+    connectionTestQuery: SELECT 1
+    jmx-enabled: true
+    tomcat:
+      jdbc-interceptors: ConnectionState;StatementCache;com.vipkid.tomcat.jdbc.pool.interceptor.SlowQueryReport(threshold=1,maxQueries=5,logSlow=true,logFailed=false)
+  redis:
+    host: localhost
+    port: 6379
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+server:
+  port: 8087
+
